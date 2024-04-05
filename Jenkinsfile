@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    environment {
-        // Service version
-        
-    }
     stages {
         stage('verify tooling') {
             steps {
@@ -16,6 +12,5 @@ pipeline {
                 '''
             }
         }
-        
     }
 }
